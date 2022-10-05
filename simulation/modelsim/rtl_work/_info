@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/simulation/modelsim
+Ealu_lab
+Z1 w1662646346
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd
+Z6 FC:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd
+l0
+L5 1
+Vh<ja^AdZY716DnghHUUmF0
+!s100 8m_c134:X=PzfY3VCb]iY3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1662646724
+!i10b 1
+Z9 !s108 1662646724.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd|
+Z11 !s107 C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+R4
+DEx4 work 7 alu_lab 0 22 h<ja^AdZY716DnghHUUmF0
+!i122 1
+l128
+L14 135
+Vd<Lm;WJI:ci3Rd234_?>83
+!s100 hcRD]nRBE3e>Q2k`h?omL3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edut
+Z14 w1662638303
+R3
+R4
+!i122 0
+R0
+Z15 8C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl
+Z16 FC:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl
+l0
+L7 1
+Vi`00cCANPbdWgoRV>IbYo0
+!s100 ATDL5T16G8a<PT>YBPMK<0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl|
+Z18 !s107 C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl|
+!i113 1
+R12
+R13
+Adutwrap
+R3
+R4
+DEx4 work 3 dut 0 22 i`00cCANPbdWgoRV>IbYo0
+!i122 0
+l17
+L12 18
+VZD1aVc?6e7ij49][;j>Ag3
+!s100 CUJ0B`h@0a=JBAMi@Af_33
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etestbench
+Z19 w1662644765
+R4
+R3
+!i122 2
+R0
+Z20 8C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl
+Z21 FC:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl|
+!s107 C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl|
+!i113 1
+R12
+R13
+Abehave
+R4
+R3
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+VzEEQBgn5^5k4Ge3ga_;bO0
+!s100 69J5m`9:7a]nae=EBMk4]2
+R7
+31
+R8
+!i10b 1
+R9
+R22
+Z23 !s107 C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl|
+!i113 1
+R12
+R13

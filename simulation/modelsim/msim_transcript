@@ -1,0 +1,71 @@
+# Reading pref.tcl
+# do ALU_Lab_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:48:44 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 19:48:44 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:48:44 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/ALU_Lab.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_Lab
+# -- Compiling architecture a1 of ALU_Lab
+# End time: 19:48:44 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:48:44 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/HP/Desktop/Third Sem/EE-214/Experiment/210070094_Lab_06/ALU_Lab/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 19:48:44 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 19:48:44 on Sep 08,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading ieee.numeric_std(body)
+# Loading work.alu_lab(a1)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: HP  Hostname: LAPTOP-Q16D3NV2  ProcessID: 519148
+#           Attempting to use alternate WLF file "./wlfthb95cj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthb95cj# End time: 19:50:06 on Sep 08,2022, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: SUCCESS, all tests passed.
+#    Time: 4864 ns  Iteration: 0  Instance: /testbench
+# End time: 19:51:18 on Sep 08,2022, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
